@@ -3,7 +3,7 @@
 An automated, resilient Data Engineering pipeline designed to extract, transform, load (ETL), and enrich urban mobility data, traffic incidents, demographics, and vehicle fleet statistics.
 
 ## Tech Stack
-* **Language:** Python (Pandas, NumPy, scikit-learn, Selenium)
+Language: Python (Pandas, NumPy, scikit-learn, Selenium)
 * **Orchestration:** Prefect
 * **Database:** SQL Server (ODBC, SQLAlchemy)
 * **Key Techniques:** Idempotent Data Loads, Resilient Bulk Ingestion (`fast_executemany` with row-by-row fallback), Web Scraping, Spatial Analysis (`BallTree`).
